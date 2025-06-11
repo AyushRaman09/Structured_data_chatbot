@@ -1,0 +1,57 @@
+{
+  "categories": {
+    "CategoryID": "INTEGER",
+    "CategoryName": "TEXT"
+  },
+  "cities": {
+    "CityID": "INTEGER",
+    "CityName": "TEXT",
+    "Zipcode": "INTEGER",
+    "CountryID": "INTEGER"
+  },
+  "countries": {
+    "CountryID": "INTEGER",
+    "CountryName": "TEXT",
+    "CountryCode": "TEXT"
+  },
+  "customers": {
+    "CustomerID": "INTEGER",
+    "FirstName": "TEXT",
+    "MiddleInitial": "TEXT",
+    "LastName": "TEXT",
+    "CityID": "INTEGER",
+    "Address": "TEXT"
+  },
+  "employees": {
+    "EmployeeID": "INTEGER",
+    "FirstName": "TEXT",
+    "MiddleInitial": "TEXT",
+    "LastName": "TEXT",
+    "BirthDate": "TEXT",
+    "Gender": "TEXT",
+    "CityID": "INTEGER",
+    "HireDate": "TEXT"
+  },
+  "products": {
+    "ProductID": "INTEGER",
+    "ProductName": "TEXT",
+    "Price": "REAL",
+    "CategoryID": "INTEGER",
+    "Class": "TEXT",
+    "ModifyDate": "TEXT",
+    "Resistant": "TEXT",
+    "IsAllergic": "TEXT",
+    "VitalityDays": "REAL"
+  },
+  "sales": {
+    "SalesID": "INTEGER",
+    "SalesPersonID": "INTEGER",
+    "CustomerID": "INTEGER",
+    "ProductID": "INTEGER",
+    "Quantity": "INTEGER",
+    "Discount": "REAL",
+    "TotalPrice": "REAL",
+    "SalesDate": "TEXT",
+    "TransactionNumber": "TEXT"
+  }
+}
